@@ -1,3 +1,15 @@
-body {
-  background-color: black;
+.square {
+  border: none solid black;
+  width: 10px;
+  height: 10px;
+  position: relative;
+  flex-basis: calc(25% - 10px);
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  max-width: 300px;
+  max-height: 500px;
 }
