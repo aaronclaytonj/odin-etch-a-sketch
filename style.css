@@ -1,14 +1,14 @@
-.square {
-  border: none solid black;
-  width: 10px;
-  height: 10px;
-  position: relative;
-  flex-basis: calc(25% - 10px);
+body {
+  background-color: rgb(78, 78, 78);
 }
 
 .container {
   display: flex;
   flex-wrap: wrap;
   margin: auto;
-  max-width: 500px;
+  max-width: 800px;
+}
+
+.sketched {
+  background-color: black;
 }
